@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.andreantaufik.tipoff.activity.AboutUsActivity"
+    android:orientation="vertical" >
+    <TextView         android:layout_width="match_parent"         android:layout_height="wrap_content"        android:text=" "/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/logo"
+        android:layout_height="195dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nAnas Tazcia Lestari"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n140810130021"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nAndrean Taufik"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n140810130041"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+    </ScrollView>

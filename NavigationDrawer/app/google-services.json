@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "695850936679",
+    "firebase_url": "https://tipoff-7faaf.firebaseio.com",
+    "project_id": "tipoff-7faaf",
+    "storage_bucket": "tipoff-7faaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695850936679:android:1e791e8d6ac9c902",
+        "android_client_info": {
+          "package_name": "info.andreantaufik.tipoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695850936679-oblvtkodig984hu0oduvp0lcgipuat7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.andreantaufik.tipoff",
+            "certificate_hash": "74CC6A39B85A4A361A27417FC2A6010BB22EE8CF"
+          }
+        },
+        {
+          "client_id": "695850936679-ik444nl491ko135unr1bvn55sg6ie65j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCetAD1ApnByUEU3XHBAimCPRZ6YNo_vsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695850936679-ik444nl491ko135unr1bvn55sg6ie65j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

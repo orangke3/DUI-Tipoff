@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    >
+    <ImageView
+        android:id="@+id/iconImageChat"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/imgplayers"
+        android:layout_weight="0.13" />
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/isiChat"
+        android:layout_width="280dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp" />
+    
+</LinearLayout>

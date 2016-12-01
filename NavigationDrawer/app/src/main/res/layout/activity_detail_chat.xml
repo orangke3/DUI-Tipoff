@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="info.andreantaufik.tipoff.activity.DetailChatActivity">
+
+    <ListView
+        android:transcriptMode="alwaysScroll"
+        android:layout_below="@+id/activity_detail_chat_son"
+        android:id="@+id/detChat"
+        android:layout_width="wrap_content"
+        android:layout_height="417dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/activity_detail_chat_son"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="10dp"
+        >
+
+        <EditText
+            android:imeOptions="actionSend"
+            android:background="@drawable/et_border"
+            android:gravity="left|center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Message..."
+            android:layout_toLeftOf="@+id/btnSend"
+            android:layout_toStartOf="@+id/btnSend"
+            android:layout_alignTop="@+id/btnSend"
+            android:id="@+id/chatMessage"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:background="@drawable/et_btn_border"
+            android:text="SEND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSend"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</LinearLayout>

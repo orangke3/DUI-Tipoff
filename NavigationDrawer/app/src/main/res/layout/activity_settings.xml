@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:background="#fafafa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="info.andreantaufik.tipoff.activity.SettingsActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERAL"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Switch
+        android:text="Use Bigger Fontsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchFontSize"
+        android:textSize="18dp"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/switchFontSizeDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change the fontsize to bigger size"
+        android:textSize="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.30" />
+
+    <Switch
+        android:text="Night Mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchNightMode"
+        android:textSize="18dp"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/switchNightModeDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change the theme to nightmode"
+        android:textSize="14dp"
+        android:layout_weight="0.25"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvNotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICATIONS"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Switch
+        android:text="Notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchNotifications"
+        android:textSize="18dp"
+        android:layout_marginBottom="2dp"/>
+    <TextView
+        android:id="@+id/switchNotificationsDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn On/Off the notifications"
+        android:textSize="14dp"
+        android:layout_weight="0.25"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1000dp"/>
+
+</LinearLayout>
+</ScrollView>

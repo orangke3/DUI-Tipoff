@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_list_events"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/list_courts_son"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ededed"
+        >
+
+    <ImageView
+        android:id="@+id/iconImageCourts"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textAlignment="center"
+        android:src="@drawable/eventdflt" />
+
+    <TextView
+        android:id="@+id/EventsNameOnList"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:text="Click For the Details >"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="9dp"
+        android:textSize="12dp"
+        android:paddingTop="5dp" />
+</LinearLayout>
+</LinearLayout>
